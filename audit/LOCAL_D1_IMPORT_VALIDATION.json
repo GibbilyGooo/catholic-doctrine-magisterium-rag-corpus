@@ -1,0 +1,25 @@
+{
+  "cloudflare_import_limit_bytes": 5368709120,
+  "cloudflare_statement_limit_bytes": 100000,
+  "counts": {
+    "canonical_records": 13725,
+    "exact_locus": 23825,
+    "retrieval_chunks": 13828,
+    "retrieval_chunks_fts": 13828
+  },
+  "database_bytes": 101826560,
+  "exact_locus_ccc_460": [
+    [
+      "mag:CCC:460:en",
+      "CCC 460"
+    ]
+  ],
+  "fts_smoke_results": 5,
+  "import_file_bytes": 83997779,
+  "maximum_statement_bytes": 37182,
+  "seconds": 5.185,
+  "sql_statement_count": 65217,
+  "sqlite_quick_check": "ok",
+  "status": "PASSED",
+  "within_cloudflare_limits": true
+}
