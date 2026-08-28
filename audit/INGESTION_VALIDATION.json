@@ -1,0 +1,12 @@
+{
+  "canonical_records": 13725,
+  "error_count": 0,
+  "errors": [],
+  "exact_locus_aliases": 23825,
+  "max_chunk_words": 898,
+  "max_metadata_bytes": 287,
+  "max_vector_id_bytes": 43,
+  "retrieval_chunks": 13828,
+  "schema_version": "theology_ai_magisterium_ingestion_validation_v1",
+  "status": "PASSED"
+}
