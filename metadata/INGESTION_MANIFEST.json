@@ -1,0 +1,177 @@
+{
+  "canonical_audit_status": "PASSED",
+  "canonical_records": 13725,
+  "chunking": {
+    "hard_max_words": 900,
+    "method": "lossless source-boundary-aware",
+    "neighbor_expansion": true,
+    "overlap_words": 0,
+    "soft_max_words": 800,
+    "target_words": 650
+  },
+  "d1_import_validation": {
+    "cloudflare_import_limit_bytes": 5368709120,
+    "cloudflare_statement_limit_bytes": 100000,
+    "counts": {
+      "canonical_records": 13725,
+      "exact_locus": 23825,
+      "retrieval_chunks": 13828,
+      "retrieval_chunks_fts": 13828
+    },
+    "database_bytes": 101826560,
+    "exact_locus_ccc_460": [
+      [
+        "mag:CCC:460:en",
+        "CCC 460"
+      ]
+    ],
+    "fts_smoke_results": 5,
+    "import_file_bytes": 83997779,
+    "maximum_statement_bytes": 37182,
+    "seconds": 5.185,
+    "sql_statement_count": 65217,
+    "sqlite_quick_check": "ok",
+    "status": "PASSED",
+    "within_cloudflare_limits": true
+  },
+  "documents": 108,
+  "exact_locus_aliases": 23825,
+  "file_inventory": [
+    {
+      "bytes": 5305,
+      "path": "CLOUDFLARE_DEPLOYMENT_HANDOFF.md",
+      "sha256": "d6cd470757b8eb49ed436f9d42a5f6115083749deec0183e0b1a895d3b77630b"
+    },
+    {
+      "bytes": 4766,
+      "path": "FULL_AUDIT_REPORT.md",
+      "sha256": "b03845147abba975d33d3f72cc76f8bb987f84c936a941d38f834e30c8ee7ed3"
+    },
+    {
+      "bytes": 2418,
+      "path": "README.md",
+      "sha256": "617c45d00022eb0f840ec278addcd9bf97b5eff43ae7c349b80f8118a053ce93"
+    },
+    {
+      "bytes": 686,
+      "path": "audit/AUDIT_CORRECTIONS.json",
+      "sha256": "e0885ed499c8854dbf405e6de8697f193ce0295fa40db801f55dd0157e1c4256"
+    },
+    {
+      "bytes": 10930,
+      "path": "audit/CANONICAL_RETRIEVAL_READINESS_AUDIT.json",
+      "sha256": "e55aa1ad75310ec20425f9ec377484cd120ce776421777cbddda944fcd3f4da4"
+    },
+    {
+      "bytes": 307,
+      "path": "audit/INGESTION_VALIDATION.json",
+      "sha256": "a94c59fc28ba439ccecbf1814238be9205179c3f9635ba58eb9ac5165ddcb6e1"
+    },
+    {
+      "bytes": 588,
+      "path": "audit/LOCAL_D1_IMPORT_VALIDATION.json",
+      "sha256": "e905dceca131cf4ac1c6d6e8bdcd8b6cbd46a33b95bebfe4aae9e699a2896efe"
+    },
+    {
+      "bytes": 3658,
+      "path": "audit/SOURCE_RELEASE_CLEAN_VERIFICATION_CERTIFICATE.json",
+      "sha256": "87b36890d16aaacc8af83590eaf49459224d1ff08bcc7654ced364fcfb1454f5"
+    },
+    {
+      "bytes": 1076400,
+      "path": "audit/SOURCE_RELEASE_MANIFEST.json",
+      "sha256": "2cda56b397b36ed9d16f6120cb3c1c898c0a3a3097237b213d0cd401d9f45539"
+    },
+    {
+      "bytes": 19256652,
+      "path": "data/canonical_records.en.jsonl",
+      "sha256": "44a31bd1a0924c43f5fa2c1ccf168eb24bc52b2b35569fe4b485e8618b7aa4b3"
+    },
+    {
+      "bytes": 5763764,
+      "path": "data/canonical_records.la.jsonl",
+      "sha256": "84149bce2d04d47f9d2da014af5338d19f3b868b2bcfb0370bdaa13461e474d4"
+    },
+    {
+      "bytes": 42746,
+      "path": "data/document_catalog.json",
+      "sha256": "89ce1740eb8613992448318b343f07b8b4416b91a17c8cf16af18060612a0fd5"
+    },
+    {
+      "bytes": 4137474,
+      "path": "data/exact_locus_index.jsonl",
+      "sha256": "7e2be6a5feb7f7378be47a65f5bc035fe2df0889c8391006700fef5aa7519d6e"
+    },
+    {
+      "bytes": 31140074,
+      "path": "data/retrieval_chunks.en.jsonl",
+      "sha256": "c6b00f101b410a5874cd03a0d48cc260e90746f453c50b90e50f4a937f7dfae4"
+    },
+    {
+      "bytes": 8838655,
+      "path": "data/retrieval_chunks.la.jsonl",
+      "sha256": "21eb640c7f0e0e4eb747b3a5cc2cf77b16eb51a1ea7fed1a61defa0e55be2092"
+    },
+    {
+      "bytes": 83997779,
+      "path": "schema/d1_import.sql",
+      "sha256": "5aaaa1e42585f254ea03051b56dc92eb07cfa251cb6367bb0c991eac1eee357f"
+    },
+    {
+      "bytes": 2160,
+      "path": "schema/d1_schema.sql",
+      "sha256": "9870a395013f21a8d02e8bd5c1e4f693bdb56233f0138788944e3e9ae3bc934f"
+    },
+    {
+      "bytes": 18575,
+      "path": "scripts/build_cloudflare_ingestion.py",
+      "sha256": "4ccef1ae004219b359b3d5212c0ebc1435200475c137d409d079690dd49fcf01"
+    },
+    {
+      "bytes": 3402,
+      "path": "scripts/build_d1_import.py",
+      "sha256": "e2afc9e9428e402e1897535bf1577fb1b7f9df7d3f72d4652c2fac25f80a36f5"
+    },
+    {
+      "bytes": 3675,
+      "path": "scripts/validate_cloudflare_ingestion.py",
+      "sha256": "f87b8b42052219f53fa19a9493bb365b7f3835756abee7c915fc647b4efc4408"
+    },
+    {
+      "bytes": 4974,
+      "path": "tests/retrieval_acceptance_cases.json",
+      "sha256": "86bdd1cd6a7118f08ad39638e260b43c640f02d460a365ecdea8eb15dbebffda"
+    }
+  ],
+  "normalizations": {
+    "canonical_source_family_preserved_separately": true,
+    "doctrinal_dicastery": "dicastery"
+  },
+  "payload_tree_sha256": "d7b3316014516e79f0757ad4ad1a380204a9260e8a525ae3babdb2f3f78ec5f1",
+  "prohibitions": [
+    "no credentials",
+    "no Cloudflare resource creation",
+    "no deployment",
+    "no embeddings included",
+    "do not merge with Summa index"
+  ],
+  "records_split": 73,
+  "retrieval_chunks": 13828,
+  "retrieval_chunks_by_language": {
+    "en": 10200,
+    "la": 3628
+  },
+  "schema_version": "theology_ai_magisterium_cloudflare_ingestion_v1",
+  "source_release_sha256": "c30f0ea455cbf94e6d0575c045d7116fcda59d65d1532c76fe8d181fc04e1fb4",
+  "status": "INGESTION_READY_NO_DEPLOYMENT_PERFORMED",
+  "vectorize": {
+    "dimensions": 1024,
+    "embedding_model": "@cf/baai/bge-m3",
+    "generated_id_bytes": 43,
+    "language_default": "en",
+    "latin_policy": "retrieve only for Latin query or explicit request",
+    "metadata_max_bytes": 10240,
+    "metric": "cosine",
+    "vector_id_max_bytes": 64
+  }
+}
