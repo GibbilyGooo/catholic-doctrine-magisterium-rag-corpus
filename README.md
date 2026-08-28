@@ -4,6 +4,16 @@ A validated, citation-preserving, authority-aware corpus of Catholic doctrinal s
 
 This repository was prepared for [Theology AI](https://theologyai.net) by AD IPSUM and is released publicly for the service of the Church and the wider research community.
 
+## Download the corpus
+
+Download the complete validated dataset from the [latest GitHub release](https://github.com/GibbilyGooo/catholic-doctrine-magisterium-rag-corpus/releases/latest):
+
+- `Catholic_Doctrine_Magisterium_RAG_Corpus_v1.0.0.zip`
+- Size: 22,392,586 bytes compressed; approximately 122 MB expanded
+- SHA-256: `03b379edb545186890a5386252f1b540192847bb0f404883a4df7942ad7426c7`
+
+The full canonical and retrieval data are distributed in the versioned release archive rather than duplicated in Git history. The repository itself keeps the documentation, schemas, validation code, acceptance cases, and audit summary directly browsable.
+
 ## What is included
 
 - **108 canonical Church documents**
@@ -30,9 +40,11 @@ Retrieval is an aid to theological reasoning, not a substitute for it. Applicati
 
 ## Quick start
 
-Validate the complete repository using only the Python standard library:
+Download and extract the release, enter its top-level directory, and validate it using only the Python standard library:
 
 ```bash
+unzip Catholic_Doctrine_Magisterium_RAG_Corpus_v1.0.0.zip
+cd github-catholic-doctrine-magisterium-rag-corpus
 python scripts/validate_repository.py
 ```
 
@@ -75,7 +87,7 @@ python scripts/build_d1_import.py --package . --output build/d1_import.sql
 
 See [the retrieval guide](docs/RETRIEVAL_GUIDE.md) and [data schema](docs/DATA_SCHEMA.md) for implementation details.
 
-## Repository layout
+## Release archive layout
 
 ```text
 source/canonical/      Source-faithful records grouped by document family
@@ -115,7 +127,7 @@ The 16 documented limitations are preserved rather than silently “repaired.”
 
 ## Text, sources, and rights
 
-Source URLs, editions, translations, acquisition dates, limitations, and hashes are recorded in `source/provenance/source_catalog.json` and `source/provenance/source_editions.json`.
+Inside the release archive, source URLs, editions, translations, acquisition dates, limitations, and hashes are recorded in `source/provenance/source_catalog.json` and `source/provenance/source_editions.json`.
 
 The repository's original code and documentation are available under the MIT License. To the extent AD IPSUM owns rights in the original corpus organization, metadata, schemas, and derived retrieval artifacts, those data-layer rights are dedicated under CC0 1.0. The underlying ecclesiastical texts and third-party translations retain their respective rights and are not relicensed by this repository.
 
