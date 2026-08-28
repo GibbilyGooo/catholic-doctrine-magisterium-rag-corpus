@@ -1,0 +1,428 @@
+{
+  "canonical_directory_file_counts": {
+    "catechism": 1,
+    "compendium": 1,
+    "councils": 29,
+    "doctrinal_dicastery": 23,
+    "papal": 54
+  },
+  "canonical_file_count": 108,
+  "counts_by_authority_class": {
+    "catechism_compendium": 602,
+    "dicastery_doctrinal": 1110,
+    "ecumenical_council": 1849,
+    "papal_magisterium": 4427,
+    "papally_mandated_dicastery_decree": 7,
+    "universal_catechism": 5730
+  },
+  "counts_by_language": {
+    "en": 10102,
+    "la": 3623
+  },
+  "counts_by_source_family": {
+    "catechism": 5730,
+    "compendium": 602,
+    "council": 1849,
+    "dicastery": 1050,
+    "doctrinal_dicastery": 67,
+    "papal": 4427
+  },
+  "derived": {
+    "concepts": 17,
+    "graph_edges": 10163,
+    "graph_nodes": 13725,
+    "inventory_records": 13725,
+    "parent_records": 13725
+  },
+  "document_count": 108,
+  "error_count": 0,
+  "errors": [],
+  "exact_normalized_text_duplicate_groups": 1,
+  "footnote_count": 13229,
+  "provenance": {
+    "fragments": 108,
+    "hash_errors": 0
+  },
+  "record_count": 13725,
+  "release_root": "/workspace/scratch/4b10b44c9ef7/magisterium-corrected-work",
+  "retrieval_shape": {
+    "longest_records": [
+      {
+        "canonical_citation": "ACU 41",
+        "characters": 30197,
+        "language": "en",
+        "record_id": "mag:ACU:41:en",
+        "words": 5196
+      },
+      {
+        "canonical_citation": "CCCC Appendix A",
+        "characters": 26562,
+        "language": "en",
+        "record_id": "mag:CCCC:appendix-common-prayers:en",
+        "words": 4617
+      },
+      {
+        "canonical_citation": "Constantinople II, Sentence of the Synod (against the Three Chapters)",
+        "characters": 24284,
+        "language": "en",
+        "record_id": "mag:CON2:sentence:en",
+        "words": 4257
+      },
+      {
+        "canonical_citation": "Ephesus, Third Epistle of Cyril to Nestorius (Cum salvator noster)",
+        "characters": 16864,
+        "language": "en",
+        "record_id": "mag:EPH:cyril-letter3:en",
+        "words": 3179
+      },
+      {
+        "canonical_citation": "SATC 15",
+        "characters": 11709,
+        "language": "en",
+        "record_id": "mag:SATC:15:en",
+        "words": 2076
+      },
+      {
+        "canonical_citation": "SATC 9",
+        "characters": 10941,
+        "language": "en",
+        "record_id": "mag:SATC:9:en",
+        "words": 1925
+      },
+      {
+        "canonical_citation": "Fourth Lateran Council, crusade decree (Ad liberandam)",
+        "characters": 11115,
+        "language": "en",
+        "record_id": "mag:LAT4:ad-liberandam:en",
+        "words": 1916
+      },
+      {
+        "canonical_citation": "SB V.1",
+        "characters": 11287,
+        "language": "en",
+        "record_id": "mag:SB:1:en",
+        "words": 1895
+      },
+      {
+        "canonical_citation": "RH 20",
+        "characters": 10920,
+        "language": "en",
+        "record_id": "mag:RH:20:en",
+        "words": 1891
+      },
+      {
+        "canonical_citation": "Constantinople III, Definition of Faith (two wills and two operations)",
+        "characters": 10131,
+        "language": "en",
+        "record_id": "mag:CON3:definition:en",
+        "words": 1766
+      },
+      {
+        "canonical_citation": "RH 16",
+        "characters": 10256,
+        "language": "en",
+        "record_id": "mag:RH:16:en",
+        "words": 1745
+      },
+      {
+        "canonical_citation": "Lyons II constitution 2 (On election and the power of the elected person)",
+        "characters": 9698,
+        "language": "en",
+        "record_id": "mag:LYO2:constitution2:en",
+        "words": 1704
+      },
+      {
+        "canonical_citation": "RH 17",
+        "characters": 10055,
+        "language": "en",
+        "record_id": "mag:RH:17:en",
+        "words": 1674
+      },
+      {
+        "canonical_citation": "DC 11",
+        "characters": 9164,
+        "language": "en",
+        "record_id": "mag:DC:11:en",
+        "words": 1579
+      },
+      {
+        "canonical_citation": "RH 21",
+        "characters": 8822,
+        "language": "en",
+        "record_id": "mag:RH:21:en",
+        "words": 1534
+      },
+      {
+        "canonical_citation": "RM 37",
+        "characters": 9543,
+        "language": "en",
+        "record_id": "mag:RM:37:en",
+        "words": 1517
+      },
+      {
+        "canonical_citation": "Nicaea II, Decree (Horos) on sacred images",
+        "characters": 8670,
+        "language": "en",
+        "record_id": "mag:NIC2:definition:en",
+        "words": 1512
+      },
+      {
+        "canonical_citation": "SATC 12",
+        "characters": 8145,
+        "language": "en",
+        "record_id": "mag:SATC:12:en",
+        "words": 1471
+      },
+      {
+        "canonical_citation": "RH 18",
+        "characters": 7781,
+        "language": "en",
+        "record_id": "mag:RH:18:en",
+        "words": 1401
+      },
+      {
+        "canonical_citation": "Ephesus, Epistle of Cyril to Nestorius (Intelligo quosdam)",
+        "characters": 7177,
+        "language": "en",
+        "record_id": "mag:EPH:cyril-letter2:en",
+        "words": 1352
+      },
+      {
+        "canonical_citation": "RH 19",
+        "characters": 8038,
+        "language": "en",
+        "record_id": "mag:RH:19:en",
+        "words": 1348
+      },
+      {
+        "canonical_citation": "MLD 11",
+        "characters": 7347,
+        "language": "en",
+        "record_id": "mag:MLD:11:en",
+        "words": 1318
+      },
+      {
+        "canonical_citation": "RH 22",
+        "characters": 7275,
+        "language": "en",
+        "record_id": "mag:RH:22:en",
+        "words": 1316
+      },
+      {
+        "canonical_citation": "Chalcedon, Definition of Faith",
+        "characters": 7559,
+        "language": "en",
+        "record_id": "mag:CHAL:definition:en",
+        "words": 1309
+      },
+      {
+        "canonical_citation": "SATC 13",
+        "characters": 7106,
+        "language": "en",
+        "record_id": "mag:SATC:13:en",
+        "words": 1269
+      }
+    ],
+    "records_over_word_threshold": {
+      "1000": 51,
+      "1500": 17,
+      "2000": 5,
+      "3000": 4,
+      "500": 413,
+      "750": 118
+    }
+  },
+  "schema_version": "theology_ai_magisterium_retrieval_readiness_audit_v1",
+  "status": "PASSED",
+  "warning_count": 16,
+  "warnings": [
+    {
+      "code": "exact_normalized_text_duplicate",
+      "detail": [
+        "mag:CCC:1786:en",
+        "mag:CCC:1799:en"
+      ]
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "CCCC",
+        "field": "document_type",
+        "values": [
+          "\"compendium\"",
+          "\"motu_proprio\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "CHAL",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_definition\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "CON1",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_decree\"",
+          "\"creed\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "CON2",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_decree\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "CON3",
+        "field": "document_type",
+        "values": [
+          "\"council_decree\"",
+          "\"council_definition\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "EPH",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_decree\"",
+          "\"council_definition\"",
+          "\"letter\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "FLO",
+        "field": "document_title",
+        "values": [
+          "\"Council of Florence, Cantate Domino (Decree for the Jacobites)\"",
+          "\"Council of Florence, Exsultate Deo (Decree for the Armenians)\"",
+          "\"Council of Florence, Laetentur Caeli (Decree for the Greeks)\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "FLO",
+        "field": "date_promulgated",
+        "values": [
+          "\"1439-07-06\"",
+          "\"1439-11-22\"",
+          "\"1442-02-04\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "LYO2",
+        "field": "document_title",
+        "values": [
+          "\"Second Council of Lyons (1274), Constitution Zelus fidei\"",
+          "\"Second Council of Lyons (1274), Constitutions\"",
+          "\"Second Council of Lyons (1274), Profession of Faith of Michael Palaeologus\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "LYO2",
+        "field": "document_type",
+        "values": [
+          "\"constitution\"",
+          "\"profession_of_faith\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "NIC1",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_decree\"",
+          "\"creed\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "NIC2",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_definition\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "Trent",
+        "field": "document_type",
+        "values": [
+          "\"council_canon\"",
+          "\"council_decree\""
+        ]
+      }
+    },
+    {
+      "code": "document_metadata_inconsistent",
+      "detail": {
+        "document_abbrev": "Trent",
+        "field": "date_promulgated",
+        "values": [
+          "\"1546-02-04\"",
+          "\"1546-04-08\"",
+          "\"1546-06-17\"",
+          "\"1547-01-13\"",
+          "\"1547-03-03\"",
+          "\"1551-10-11\"",
+          "\"1551-11-25\"",
+          "\"1562-07-16\"",
+          "\"1562-09-17\"",
+          "\"1563-07-15\"",
+          "\"1563-11-11\"",
+          "\"1563-12-03\"",
+          "\"1563-12-04\""
+        ]
+      }
+    },
+    {
+      "code": "source_family_alias_split",
+      "detail": {
+        "dicastery": 1050,
+        "doctrinal_dicastery": 67,
+        "policy": "normalize only in retrieval layer; preserve canonical source metadata"
+      }
+    }
+  ],
+  "word_count": 1914116
+}
