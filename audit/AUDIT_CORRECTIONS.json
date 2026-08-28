@@ -1,0 +1,13 @@
+{
+  "canonical_file": "catholic_doctrine_magisterium_corpus/canonical/doctrinal_dicastery/DP.jsonl",
+  "canonical_sha256_after": "71a40ac9899e62494bb6a5446871f6986d937654da1676e8821402868e423afc",
+  "official_evidence_file": "_staging/remediation/raw/DP_16_official_2026-08-28.md",
+  "official_evidence_sha256": "fdedbabdd22c2af9893aa8655f78445d44d6b81a5cb30eac5e98b1a2496d1e92",
+  "records_repaired": [
+    "mag:DP:8:en",
+    "mag:DP:34:en"
+  ],
+  "repair": "Replace legacy U+001A plus stray 'c' corruption with the ellipsis shown in the preserved official Holy See text.",
+  "schema_version": "theology_ai_magisterium_audit_correction_v1",
+  "status": "APPLIED_AND_SOURCE_VERIFIED"
+}
