@@ -1,0 +1,191 @@
+{
+  "cases": [
+    {
+      "expected_loci": [
+        "CCC 460"
+      ],
+      "id": "ccc_460",
+      "query": "What does CCC 460 teach?",
+      "route": "exact_locus"
+    },
+    {
+      "expected_loci": [
+        "CCCC 39"
+      ],
+      "id": "cccc_39",
+      "query": "Compendium question 39",
+      "route": "exact_locus_then_ccc_expansion"
+    },
+    {
+      "expected_documents": [
+        "NIC1"
+      ],
+      "id": "nicaea_homoousios",
+      "query": "What did Nicaea I define about the Son being consubstantial with the Father?",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "CHAL"
+      ],
+      "id": "chalcedon_two_natures",
+      "query": "Explain Chalcedon's definition of Christ in two natures.",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "EPH"
+      ],
+      "id": "ephesus_theotokos",
+      "query": "What did Ephesus teach concerning Mary as Theotokos?",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "CON3"
+      ],
+      "id": "constantinople_two_wills",
+      "query": "Which council defined Christ's two wills and operations?",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "Trent"
+      ],
+      "id": "trent_justification",
+      "query": "What does Trent teach about justification and grace?",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "PA"
+      ],
+      "id": "vatican_i_infallibility",
+      "query": "What conditions does Pastor Aeternus give for papal infallibility?",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "DF"
+      ],
+      "id": "dei_filius_reason",
+      "query": "How does Dei Filius relate faith and reason?",
+      "route": "council_precision"
+    },
+    {
+      "expected_documents": [
+        "LG"
+      ],
+      "id": "lg_church",
+      "query": "What does Lumen Gentium teach about the nature of the Church?",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "DV"
+      ],
+      "id": "dv_revelation",
+      "query": "How does Dei Verbum describe Scripture and Tradition?",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "GS"
+      ],
+      "id": "gs_dignity",
+      "query": "What does Gaudium et Spes teach about human dignity?",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "DH"
+      ],
+      "id": "dh_freedom",
+      "query": "Explain Dignitatis Humanae on religious freedom.",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "HV"
+      ],
+      "id": "hv_contraception",
+      "query": "What does Humanae Vitae teach about contraception?",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "VS"
+      ],
+      "id": "vs_intrinsic_evil",
+      "query": "What does Veritatis Splendor teach about intrinsically evil acts?",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "EV"
+      ],
+      "id": "ev_life",
+      "query": "What does Evangelium Vitae teach about abortion and euthanasia?",
+      "route": "document_precision"
+    },
+    {
+      "expected_documents": [
+        "DI"
+      ],
+      "id": "di_salvation",
+      "query": "What does Dominus Iesus teach about Christ and salvation?",
+      "route": "dicastery_precision"
+    },
+    {
+      "expected_documents": [
+        "DP"
+      ],
+      "id": "dp_embryo",
+      "query": "What does Dignitas Personae teach about human embryos?",
+      "route": "dicastery_precision"
+    },
+    {
+      "expected_documents": [
+        "DIN"
+      ],
+      "id": "din_dignity",
+      "query": "How does Dignitas Infinita explain human dignity?",
+      "route": "dicastery_precision"
+    },
+    {
+      "expected_behavior": "external_current_authority_required",
+      "id": "current_law_fallback",
+      "query": "What is the current canon-law procedure in force today?",
+      "route": "external_fallback"
+    },
+    {
+      "expected_behavior": "summa_corpus_not_magisterium_only",
+      "id": "summa_separation",
+      "query": "How does Aquinas argue for divine simplicity?",
+      "route": "summa_or_mixed"
+    },
+    {
+      "expected_loci": [
+        "CCC 460 [Latin]"
+      ],
+      "id": "latin_filter",
+      "query": "Da mihi textum Latinum CCC 460.",
+      "route": "exact_locus_latin"
+    },
+    {
+      "expected_documents": [
+        "CCC"
+      ],
+      "id": "ordinary_catechesis",
+      "query": "Why do Catholics baptize infants?",
+      "route": "ccc_first"
+    },
+    {
+      "expected_behavior": "no_simplistic_infallibility_flag",
+      "id": "authority_no_flattening",
+      "query": "Is every sentence in every dicastery document infallible?",
+      "route": "authority_context"
+    }
+  ],
+  "schema_version": "theology_ai_magisterium_retrieval_acceptance_v1"
+}
