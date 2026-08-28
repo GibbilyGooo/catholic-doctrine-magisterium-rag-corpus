@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "detail": "FINAL/PASSED",
+      "name": "manifest_status",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "actual": 2907,
+        "listed": 2907,
+        "mismatches": []
+      },
+      "name": "sha256sums_complete_and_valid",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "entries": 2906,
+        "mismatches": [],
+        "tree_hash": "bf265e6670379b71f7db02127dfb8bf8175cd16dec40a19e6aa3da5bd5643450"
+      },
+      "name": "rich_manifest_inventory",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "fragments": 108,
+        "mismatches": []
+      },
+      "name": "all_declared_raw_sources_present_and_hash_valid",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "automated_match": true,
+        "manifest_match": true
+      },
+      "name": "fidelity_evidence_hash_binding",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "document_coverage_count": 108,
+        "fail_count": 0,
+        "final_pass_count": 671,
+        "limitation_count": 16,
+        "sample_count": 687,
+        "status": "PASSED_WITH_DOCUMENTED_LIMITATIONS"
+      },
+      "name": "fidelity_gate_clear",
+      "status": "PASSED"
+    },
+    {
+      "detail": [],
+      "name": "no_prohibited_artifact_filenames",
+      "status": "PASSED"
+    },
+    {
+      "detail": "_build/freeze_final_release.py",
+      "name": "single_freeze_entrypoint",
+      "status": "PASSED"
+    },
+    {
+      "detail": "all paths relative and traversal-free",
+      "name": "safe_release_paths",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "expected_pass": 616,
+        "expected_review": 71,
+        "observed_pass": 616,
+        "observed_review": 71
+      },
+      "name": "fidelity_reverification_matches_frozen_evidence",
+      "status": "PASSED"
+    },
+    {
+      "detail": {
+        "canonical_file_count": 108,
+        "problems_count": 0,
+        "total_records": 13725,
+        "warnings_count": 4
+      },
+      "name": "independent_auditor_zero_problems",
+      "status": "PASSED"
+    }
+  ],
+  "failure_count": 0,
+  "manifest_sha256": "2cda56b397b36ed9d16f6120cb3c1c898c0a3a3097237b213d0cd401d9f45539",
+  "release_root": "/workspace/scratch/4b10b44c9ef7/magisterium-corrected-work",
+  "release_tree_sha256": "8a761c8ab121e3f65bb6ce079c6f0cf6cb2b12e42955e171b0083e3fce951ed9",
+  "schema_version": "theology_ai_magisterium_clean_verification_v2",
+  "status": "PASSED",
+  "steps": [
+    {
+      "log": "/workspace/scratch/4b10b44c9ef7/mag-audited-verify.DsqKZm/dependency_preflight.log",
+      "name": "dependency_preflight",
+      "returncode": 0,
+      "status": "PASSED"
+    },
+    {
+      "log": "/workspace/scratch/4b10b44c9ef7/mag-audited-verify.DsqKZm/final_acceptance.log",
+      "name": "final_acceptance",
+      "returncode": 0,
+      "status": "PASSED"
+    },
+    {
+      "log": "/workspace/scratch/4b10b44c9ef7/mag-audited-verify.DsqKZm/derived_regression.log",
+      "name": "derived_regression",
+      "returncode": 0,
+      "status": "PASSED"
+    },
+    {
+      "log": "/workspace/scratch/4b10b44c9ef7/mag-audited-verify.DsqKZm/fidelity_reverification.log",
+      "name": "fidelity_reverification",
+      "returncode": 0,
+      "status": "PASSED"
+    },
+    {
+      "log": "/workspace/scratch/4b10b44c9ef7/mag-audited-verify.DsqKZm/supplied_validator.log",
+      "name": "supplied_validator",
+      "returncode": 0,
+      "status": "PASSED"
+    },
+    {
+      "log": "/workspace/scratch/4b10b44c9ef7/mag-audited-verify.DsqKZm/independent_auditor.log",
+      "name": "independent_auditor",
+      "returncode": 0,
+      "status": "PASSED"
+    }
+  ]
+}
