@@ -1,0 +1,22 @@
+{
+  "schema_version": "ad_ipsum_public_corpus_release_v1",
+  "title": "Catholic Doctrine and Magisterium Canonical RAG Corpus",
+  "version": "1.0.0",
+  "date_released": "2026-08-28",
+  "publisher": "AD IPSUM",
+  "repository": "https://github.com/GibbilyGooo/catholic-doctrine-magisterium-rag-corpus",
+  "canonical_documents": 108,
+  "canonical_records": 13725,
+  "source_text_words": 1914116,
+  "english_records": 10102,
+  "latin_records": 3623,
+  "retrieval_chunks": 13828,
+  "exact_locus_aliases": 23825,
+  "embeddings_included": false,
+  "vector_database_included": false,
+  "credentials_included": false,
+  "d1_import_included": false,
+  "d1_import_reproducible_with": "python scripts/build_d1_import.py --package . --output build/d1_import.sql",
+  "validation_command": "python scripts/validate_repository.py",
+  "status": "PASSED"
+}
